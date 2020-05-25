@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-typescript-blog-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhyun/nuxt-typescript-blog-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samhyun/nuxt-typescript-blog-sample/issues"
+  },
+  "homepage": "https://github.com/samhyun/nuxt-typescript-blog-sample#readme",
+  "devDependencies": {
+    "@nuxt/typescript-build": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^2.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@nuxt/typescript-runtime": "^0.4.7",
+    "nuxt": "^2.12.2",
+    "vue-property-decorator": "^8.4.2"
+  }
+}
